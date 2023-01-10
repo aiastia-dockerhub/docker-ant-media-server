@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-LABEL org.opencontainers.image.source https://github.com/rez0n/ant-media-server
+LABEL org.opencontainers.image.source https://github.com/ant-media/ant-media-server
 ARG RELEASE_URL
 
 RUN apt-get update --fix-missing \
